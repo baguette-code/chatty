@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatty - Your Personal Helper</title>
+    <link rel="manifest" href="chatty.webmanifest" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="chat_container">
+        <h1 style="align-self: center; font-size: xx-large; color: rgb(185, 185, 185);" name="placeholder">No Messages Yet</h1>
+        <p style="align-self: center; font-size: medium; color: rgb(185, 185, 185);" name="placeholder">
+          Start talking to Chatty by entering a message below.
+        </p>
+      </div>
+
+      <form>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Ask Chatty something..."></textarea>
+        <button type="submit"><img src="assets/send.svg"></button>
+      </form>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

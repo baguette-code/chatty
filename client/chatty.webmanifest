@@ -1,0 +1,16 @@
+{
+    "name": "Chatty - Your Personal Helper",
+    "short_name": "Chatty",
+    "description": "Web app",
+    "icons": [
+      {
+        "src": "icons/ChattyLogo_512x.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#202020",
+    "background_color": "#202020"
+  }
