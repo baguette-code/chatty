@@ -13,5 +13,7 @@
     "start_url": "https://chatty-snowy.vercel.app/",
     "display": "standalone",
     "theme_color": "#202020",
-    "background_color": "#202020"
+    "background_color": "#202020",
+    "display": "standalone",
+    "prefer_related_applications": false
   }
