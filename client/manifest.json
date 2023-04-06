@@ -4,7 +4,7 @@
     "description": "Web app",
     "icons": [
       {
-        "src": "https://chatty-snowy.vercel.app/icons/ChattyLogo512x.png",
+        "src": "https://raw.githubusercontent.com/baguette-code/chatty/main/client/icons/ChattyLogo512x.png",
         "sizes": "512x512",
         "type": "image/png"
       }
