@@ -17,7 +17,7 @@ app.post('/', async (req, res) => { // Main endpoint
     const response = await openai.createCompletion({
       model: 'text-davinci-003', // text-davinci-003 is the best model for now
       prompt: req.body.prompt, // prompt is the text that the bot will use to generate a response
-      temperature: 0.5, // temperature is the randomness of the response
+      temperature: req.body.randomness, // temperature is the randomness of the response
       max_tokens: 3000, // max_tokens is the maximum number of tokens that the bot will generate
       top_p: 1, // top_p is the probability that the bot will use the next token
       frequency_penalty: 0.5, // frequency_penalty is the probability that the bot will use the same token

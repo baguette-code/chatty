@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div style="align-items: center;">
+      <h3>Set a response type:</h3>
+      <button style="color: white; background-color: black;" type="button" onclick="setRandom(0)">Accurate</button>
+      <br>
+      <button style="color: white; background-color: black;" type="button" onclick="setRandom(0.5)">Accurate and random</button>
+      <br>
+      <button style="color: white; background-color: black;" type="button" onclick="setRandom(1)">Random</button>
+    </div>
+
     <div id="app">
+
       <div id="chat_container">
         <h1 style="align-self: center; font-size: xx-large; color: rgb(185, 185, 185);" name="placeholder">No Messages Yet</h1>
         <p style="align-self: center; font-size: medium; color: rgb(185, 185, 185);" name="placeholder">

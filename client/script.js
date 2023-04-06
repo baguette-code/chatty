@@ -5,6 +5,7 @@ const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
 
 let loadInterval;
+let random = 0.5;
 
 function loader(element) {
   element.textContent = '';
@@ -16,6 +17,10 @@ function loader(element) {
       element.textContent = '';
     }
   }, 300)
+}
+
+function setRandom(val) {
+  random = val;
 }
 
 function typeText(element, text) {
@@ -96,7 +101,8 @@ const handleSubmit = async (e) => {
           'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-          prompt: data.get('prompt')
+          prompt: data.get('prompt'),
+          randomness: random
       })
   })
 
