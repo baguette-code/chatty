@@ -4,13 +4,12 @@
     "description": "Web app",
     "icons": [
       {
-        "src": "icons/ChattyLogo_512x.png",
+        "src": "https://chatty-snowy.vercel.app/icons/ChattyLogo512x.png",
         "sizes": "512x512",
         "type": "image/png"
       }
     ],
-    "scope": "/",
-    "start_url": "index.html",
+    "start_url": "https://chatty-snowy.vercel.app/",
     "display": "standalone",
     "theme_color": "#202020",
     "background_color": "#202020",
